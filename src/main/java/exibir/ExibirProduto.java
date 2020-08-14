@@ -21,20 +21,6 @@ public class ExibirProduto extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        /*
-         * resp.setContentType("text/html"); resp.setCharacterEncoding("UTF-8");
-         * 
-         * PrintWriter saida = resp.getWriter();
-         * 
-         * String nome = req.getParameter("nome");
-         * 
-         * saida.println("<html>"); saida.println("<body>");
-         * saida.println("<p>Teste de Servlet</p>"); saida.println("</body>");
-         * saida.println("</html>");
-         * 
-         * saida.flush(); saida.close();
-         */
-
         resp.setContentType("text/html");
         String idProduto = req.getParameter("idProduto");
         try {
