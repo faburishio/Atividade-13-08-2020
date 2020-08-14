@@ -1,0 +1,20 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.codeGeneration.generateComments": true,
+    "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+    "sqltools.connections": [
+        {
+            "database": "dbteste",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "teste",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
